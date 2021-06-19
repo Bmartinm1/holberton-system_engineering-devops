@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {{a..z}{a..z}} | sort | grep -v "oo" | tr -sc '[:alpha:]' '[\n*]'
+echo {{a..n}{a..z}} o{a..n} o{p..z} {{p..z}{a..z}} | sort | tr -sc '[:alpha:]' '[\n*]'
