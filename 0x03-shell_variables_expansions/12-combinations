@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {{a..n}{a..z}} | tr -sc '[:alpha:]' '[\n*]' | grep -e --exclude "oo"
+echo {{a..n}{a..z}} | tr -sc '[:alpha:]' '[\n*]' | grep -e --exclude"oo"
