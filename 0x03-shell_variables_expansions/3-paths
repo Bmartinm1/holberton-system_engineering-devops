@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -sc "\" '[\n*]' | wc -l
+echo $PATH | tr -sc "/" '[\n*]' | wc -l
