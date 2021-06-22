@@ -7,6 +7,7 @@ minutes=1
 while [ $hours -le 12 ];
 do
 	echo $hours
+	hours=$((hours + 1))
 case $hours in
 1)
 while [ $minutes -le 59 ];
