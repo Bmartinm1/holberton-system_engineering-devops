@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+/* this script will display numbers 1-20
+on iterations 4, 9, and 17, it will display the number followed by the statement "bad luck from" and "China/Japan/Italy" respectively *\
+
+badLuckC="bad luck from China"
+badLuckJ="bad luck from Japan"
+badLuckI="bad luck from Italy"
+count=1
+
+while [ $count -le 20 ];
+do
+if [ $count -eq 4 ];
+then
+	echo "$count"
+	echo "$badLuckC"
+	count=$((count + 1))
+elif [ $count -eq 9 ];
+then
+	echo "$count"
+	echo "$badLuckJ"
+	count=$((count + 1))
+elif [ $count -eq 17 ];
+then
+	echo "$count"
+	echo "$badLuckI"
+	count=$((count + 1))
+else
+	echo "$count"
+	count=$((count + 1))
+fi
+done
