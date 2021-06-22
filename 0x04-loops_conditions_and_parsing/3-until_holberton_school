@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# The script will print "Holberton School 10 times using an until loop
+myStr="Holberton School"
+count=1
+until [ $count -gt 10 ]
+do
+	count=$(( count + 1 ))
+	echo "$myStr"
+	sleep 0.5
+done
+
