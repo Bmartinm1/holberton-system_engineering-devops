@@ -1,0 +1,108 @@
+#!/usr/bin/env bash
+# this will display hours and minutes
+
+hours=0
+minutes=1
+
+while [ $hours -le 12 ];
+do
+	echo $hours
+case $hours in
+1)
+while [ $minutes -le 59 ];
+do
+	echo $minutes
+	minutes=$((minutes + 1))
+	hours=$((hours +1))
+done
+;;
+2)
+while [ $minutes -le 59 ];
+do
+        echo $minutes
+        minutes=$((minutes + 1))
+	hours=$((hours +1))
+done
+;;
+3)
+while [ $minutes -le 59 ];
+do
+        echo $minutes
+        minutes=$((minutes + 1))
+	hours=$((hours +1))
+done
+;;
+4)
+while [ $minutes -le 59 ];
+do
+        echo $minutes
+        minutes=$((minutes + 1))
+	 hours=$((hours +1))
+done
+;;
+5)
+while [ $minutes -le 59 ];
+do
+        echo $minutes
+        minutes=$((minutes + 1))
+ 	hours=$((hours +1))
+done
+;;
+6)
+while [ $minutes -le 59 ];
+do
+        echo $minutes
+        minutes=$((minutes + 1))
+	 hours=$((hours +1))
+done
+;;
+7)
+while [ $minutes -le 59 ];
+do
+        echo $minutes
+        minutes=$((minutes + 1))
+	 hours=$((hours +1))
+done
+;;
+8)
+while [ $minutes -le 59 ];
+do
+        echo $minutes
+        minutes=$((minutes + 1))
+	 hours=$((hours +1))
+done
+;;
+9)
+while [ $minutes -le 59 ];
+do
+        echo $minutes
+        minutes=$((minutes + 1))
+	 hours=$((hours +1))
+done
+;;
+10)
+while [ $minutes -le 59 ];
+do
+        echo $minutes
+        minutes=$((minutes + 1))
+	 hours=$((hours +1))
+done
+;;
+11)
+while [ $minutes -le 59 ];
+do
+        echo $minutes
+        minutes=$((minutes + 1))
+	 hours=$((hours +1))
+done
+;;
+12)
+while [ $minutes -le 59 ];
+do
+        echo $minutes
+        minutes=$((minutes + 1))
+ 	hours=$((hours +1))
+done
+;;
+esac
+done
