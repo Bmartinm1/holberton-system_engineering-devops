@@ -1,2 +1,10 @@
 #!/usr/bin/env bash
-
+# This script will print "Holberton School" via a while loop
+i=1
+myStr="Holberton School"
+while [ $i -le 10 ];
+do
+	echo "$myStr"
+	i=$((i + 1))
+	sleep 0.5
+done
