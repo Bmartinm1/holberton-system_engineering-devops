@@ -6,18 +6,19 @@ count=1
 while [ $count -le 100 ];
 do
 	echo "$count"
+	count=$((count + 1))
 if ! ((count%15)); then
 	echo FizzBuzz
-	count=$((count))
+	 count=$((count + 1))
 elif ! ((count%5)); then
 	echo Buzz
-	count=$((count))
+	 count=$((count + 1))
 elif ! ((count%3)); then
 	echo Fizz
-	count=$((count))
+	 count=$((count + 1))
 else
 	echo "$count"
-	count=$((count))
+	count=$((count + 1))
 fi
 done
 
