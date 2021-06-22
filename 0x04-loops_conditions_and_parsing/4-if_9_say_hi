@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This script will print "Holberton school" nine times via a while loop, and# on the 9th iteration it will print "Hi" via an If statement
+
+myStr="Holberton School"
+count=1
+while [ $count -le 10 ]; 
+do
+	if [ $count -eq 9 ]; 
+then
+	myStr="Hi"
+	echo "$myStr"
+	count=$((count+1))
+else
+	echo "$myStr"
+	count=$((count+1))
+fi 
+done
