@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# this is the fizzbuzz thing that everyone in the world knows about.
+
+count=1
+
+while [ $count -le 100 ];
+do
+if ! ((count%15)); then
+	echo FizzBuzz
+elif ! ((count%5)); then
+	echo Buzz
+elif ! ((count%3)); then
+	echo Fizz
+else
+	echo "$count"
+fi
+done
+
