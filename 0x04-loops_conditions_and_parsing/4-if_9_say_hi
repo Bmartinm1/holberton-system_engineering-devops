@@ -2,13 +2,14 @@
 # This script will print "Holberton school" nine times via a while loop, and# on the 9th iteration it will print "Hi" via an If statement
 
 myStr="Holberton School"
+myStr2="Hi"
 count=1
 while [ $count -le 10 ]; 
 do
 	if [ $count -eq 9 ]; 
 then
-	myStr="Hi"
 	echo "$myStr"
+	echo "$myStr2"
 	count=$((count+1))
 else
 	echo "$myStr"
