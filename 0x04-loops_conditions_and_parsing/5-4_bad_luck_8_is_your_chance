@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# This script will print "Holberton school" via a while loop.
+# on the 4th and 8th iterations, the script will print "bad luck" and
+# "good luck" respectively
+
+myStr="Holberton School"
+bad="bad luck"
+good="good luck"
+count=1
+while [ $count -le 10 ];
+do
+if [ $count -eq 4 ];
+then
+        echo "$bad"
+        count=$((count+1))
+elif [ $count -eq 8 ]
+then
+        echo "$good"
+        count=$((count+1))
+else
+	echo "$myStr"
+	count=$((count+1))
+fi
+done
