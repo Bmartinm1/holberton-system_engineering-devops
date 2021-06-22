@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# this script will list the content of the current directory
+
+for i in *;
+do
+	echo "$i"
+done
