@@ -20,6 +20,7 @@ done
 2)
 while [ $minutes -le 59 ];
 do
+	minutes=1
         echo $minutes
         minutes=$((minutes + 1))
 	hours=$((hours +1))
@@ -28,6 +29,7 @@ done
 3)
 while [ $minutes -le 59 ];
 do
+	minutes=1
         echo $minutes
         minutes=$((minutes + 1))
 	hours=$((hours +1))
@@ -36,6 +38,7 @@ done
 4)
 while [ $minutes -le 59 ];
 do
+	minutes=1
         echo $minutes
         minutes=$((minutes + 1))
 	 hours=$((hours +1))
@@ -44,6 +47,7 @@ done
 5)
 while [ $minutes -le 59 ];
 do
+	minutes=1
         echo $minutes
         minutes=$((minutes + 1))
  	hours=$((hours +1))
@@ -52,6 +56,7 @@ done
 6)
 while [ $minutes -le 59 ];
 do
+	minutes=1
         echo $minutes
         minutes=$((minutes + 1))
 	 hours=$((hours +1))
@@ -60,6 +65,7 @@ done
 7)
 while [ $minutes -le 59 ];
 do
+	minutes=1
         echo $minutes
         minutes=$((minutes + 1))
 	 hours=$((hours +1))
@@ -68,6 +74,7 @@ done
 8)
 while [ $minutes -le 59 ];
 do
+	minutes=1
         echo $minutes
         minutes=$((minutes + 1))
 	 hours=$((hours +1))
@@ -76,6 +83,7 @@ done
 9)
 while [ $minutes -le 59 ];
 do
+	minutes=1
         echo $minutes
         minutes=$((minutes + 1))
 	 hours=$((hours +1))
@@ -84,6 +92,7 @@ done
 10)
 while [ $minutes -le 59 ];
 do
+	minutes=1
         echo $minutes
         minutes=$((minutes + 1))
 	 hours=$((hours +1))
@@ -92,6 +101,7 @@ done
 11)
 while [ $minutes -le 59 ];
 do
+	minutes=1
         echo $minutes
         minutes=$((minutes + 1))
 	 hours=$((hours +1))
@@ -100,6 +110,7 @@ done
 12)
 while [ $minutes -le 59 ];
 do
+	minutes=1
         echo $minutes
         minutes=$((minutes + 1))
  	hours=$((hours +1))
