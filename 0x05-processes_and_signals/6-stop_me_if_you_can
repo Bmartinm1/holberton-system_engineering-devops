@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+# bash script will kill the infinit and beyond process without kill or killall
+pkill -f "to infinity and beyond"
