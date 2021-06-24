@@ -1,1 +1,3 @@
 #!/usr/bin/env bash
+# script will stop the previously written script
+kill "$(ps -x | pgrep -e infinity)"
